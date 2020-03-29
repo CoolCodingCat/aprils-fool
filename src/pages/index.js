@@ -19,8 +19,8 @@ const IndexPage = () => (
         <div className="row h-100">
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
-              <h1 className="mb-5">
-                Le SaveurCoin est une monnaie virtuelle basée sur le protocol Ethereum : le moyen idéal pour sécuriser vos transactions avec votre boulangerie préférée Aux Saveurs de la Tour
+              <h1 className="mb-5 notSoBig">
+                Le SaveurCoin est une monnaie virtuelle basée sur le protocol Ethereum. Le moyen idéal pour sécuriser vos transactions avec votre boulangerie préférée :<br/> Aux Saveurs de la Tour
               </h1>
               <div type="id">
               <a href="/endpoint" className="btn btn-outline btn-xl">
