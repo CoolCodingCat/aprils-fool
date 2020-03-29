@@ -6,7 +6,8 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 import Social from '../components/Social';
 
-import demo1 from '../assets/images/demo-screen-1.jpg';
+import demo1 from '../assets/images/visuel-1.png';
+import demo2 from '../assets/images/visuel-2.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
@@ -83,7 +84,7 @@ const IndexPage = () => (
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
+                    <img src={demo2} className="img-fluid" alt="" />
                   </div>
                   <div className="button"></div>
                 </div>
@@ -161,7 +162,7 @@ const IndexPage = () => (
         <h2>
           On 
           <i className="fas fa-heart"></i>
-           aussi le chocolat sécurisé !
+            les bitcoins et le chocolat !
         </h2>
         <Social />
       </div>
