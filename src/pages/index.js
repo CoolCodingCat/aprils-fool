@@ -25,7 +25,7 @@ const IndexPage = () => (
               </h1>
               <div type="id">
               <a href="/endpoint" className="btn btn-outline btn-xl">
-                  Je crée mon Wallet !
+                  En savoir plus !
                 </a>
               </div>
             </div>
