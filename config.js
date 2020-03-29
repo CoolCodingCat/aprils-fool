@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter New age', // <title>
+  siteTitle: 'Le SaveurCoin dévoilé', // <title>
   manifestName: 'newage',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -10,25 +10,16 @@ module.exports = {
   pathPrefix: `/gatsby-starter-newage/`, // This path is subpath of your hosting https://domain/portfolio
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
+
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/KatKoding',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/auxsaveursdelatour/',
     },
   ],
 };

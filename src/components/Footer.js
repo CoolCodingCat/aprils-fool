@@ -4,13 +4,13 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-        <p>&copy; Gatsby Starter New Age 2019. All Rights Reserved.</p>
+        <p>&copy; Korrilis Digital 2020 - Restez Chez Vous</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/#">Privacy</a>
+            <a href="/endpoint">Confidentialité</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">Terms</a>
+            <a href="/#">CGV</a>
           </li>
           <li className="list-inline-item">
             <a href="/#">FAQ</a>

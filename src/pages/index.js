@@ -20,12 +20,11 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+                Le SaveurCoin est une monnaie virtuelle basée sur le protocol Ethereum : le moyen idéal pour sécuriser vos transactions avec votre boulangerie préférée Aux Saveurs de la Tour
               </h1>
               <Scroll type="id" element="download">
-                <a href="#download" className="btn btn-outline btn-xl">
-                  Start Now for Free!
+              <a href="/endpoint" className="btn btn-outline btn-xl">
+                  Je crée mon Wallet !
                 </a>
               </Scroll>
             </div>
@@ -51,17 +50,16 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              Découvrez pourquoi tout le monde en parle
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              Notre application est disponible ! Téléchargez là pour demarrer
             </p>
             <div className="badges">
-              <a className="badge-link" href="/#">
+              <a className="badge-link" href="/endpoint">
                 <img src={gplay} alt="" />
               </a>
-              <a className="badge-link" href="/#">
+              <a className="badge-link" href="/endpoint">
                 <img src={astore} alt="" />
               </a>
             </div>
@@ -73,9 +71,9 @@ const IndexPage = () => (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2 className="secu">Sécurisé et infalsifiable</h2>
           <p className="text-muted">
-            Check out what you can do with this app theme!
+            Vos courses ne seront plus jamais comme avant
           </p>
           <hr />
         </div>
@@ -98,20 +96,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
+                    <h3>Sécurisé</h3>
                     <p className="text-muted">
-                      Ready to use HTML/CSS device mockups, no Photoshop
-                      required!
+                      Le protocole P2P Ethereum vous garantit une trace infalsifiable, confirmée par les ordinateurs du monde entier, pour prouver que vous avez pensé à acheter votre <strong>baguette Parisse</strong>
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
+                    <h3>Irréfutable</h3>
                     <p className="text-muted">
-                      Put an image, video, animation, or anything else in the
-                      screen!
+                      Si on vous accuse d'avoir mangé les croissants en cours de route, vous pouvez prouver que vous avez oublié de les acheter
                     </p>
                   </div>
                 </div>
@@ -120,20 +116,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
+                    <h3>Simple</h3>
                     <p className="text-muted">
-                      As always, this theme is free to download and use for any
-                      purpose!
+                      Grâce à votre clé de cryptage de 32 caractères, à fournir à la caisse, en plus de votre application dévérouillée par reconnaissance faciale et corroborée par votre pièce d'identité certifiée conforme par le Grand Consul, vous aurez accès à la partie viennoiseries sur invitation.
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
+                    <h3>Pratique</h3>
                     <p className="text-muted">
-                      Since this theme is MIT licensed, you can use it
-                      commercially!
+                      L'ajout de votre transaction sur la blockchain ne prend pas plus de 20 minutes. Gain de temps évident.<br/> (note : vous pourrez sortir du magasin immédiatement après cette validation)
                     </p>
                   </div>
                 </div>
@@ -148,13 +142,13 @@ const IndexPage = () => (
       <div className="cta-content">
         <div className="container">
           <h2>
-            Stop waiting.
+            SaveurCoin
             <br />
-            Start building.
+            La nouvelle ère du croissant
           </h2>
           <Scroll type="id" element="contact">
-            <a href="#contact" className="btn btn-outline btn-xl">
-              Let's Get Started!
+            <a href="/endpoint" className="btn btn-outline btn-xl">
+              On démarre !
             </a>
           </Scroll>
         </div>
@@ -165,9 +159,9 @@ const IndexPage = () => (
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>
-          We
+          On 
           <i className="fas fa-heart"></i>
-          new friends!
+           aussi le chocolat sécurisé !
         </h2>
         <Social />
       </div>

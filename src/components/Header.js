@@ -68,7 +68,7 @@ export default class Header extends Component {
                   type="id"
                   element="download"
                 >
-                  <a className="nav-link" href="#download">
+                  <a className="nav-link" href="/endpoint">
                     Download
                   </a>
                 </Scroll>
@@ -79,7 +79,7 @@ export default class Header extends Component {
                   type="id"
                   element="features"
                 >
-                  <a className="nav-link" href="#features">
+                  <a className="nav-link" href="/endpoint">
                     Features
                   </a>
                 </Scroll>
@@ -90,7 +90,7 @@ export default class Header extends Component {
                   type="id"
                   element="contact"
                 >
-                  <a className="nav-link" href="#contact">
+                  <a className="nav-link" href="http://auxsaveursdelatour.fr/accueil/infos/">
                     Contact
                   </a>
                 </Scroll>
