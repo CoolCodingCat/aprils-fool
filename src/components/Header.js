@@ -63,37 +63,34 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Scroll
+                <div
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="download"
                 >
                   <a className="nav-link" href="/endpoint">
                     Download
                   </a>
-                </Scroll>
+                </div>
               </li>
               <li className="nav-item">
-                <Scroll
+                <div
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="features"
                 >
                   <a className="nav-link" href="/endpoint">
                     Features
                   </a>
-                </Scroll>
+                </div>
               </li>
               <li className="nav-item">
-                <Scroll
+                <div
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="contact"
                 >
                   <a className="nav-link" href="http://auxsaveursdelatour.fr/accueil/infos/">
                     Contact
                   </a>
-                </Scroll>
+                </div>
               </li>
             </ul>
           </div>

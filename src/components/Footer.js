@@ -10,10 +10,10 @@ export default function Footer() {
             <a href="/endpoint">Confidentialité</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">CGV</a>
+            <a href="/endpoint">CGV</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">FAQ</a>
+            <a href="/endpoint">FAQ</a>
           </li>
         </ul>
       </div>

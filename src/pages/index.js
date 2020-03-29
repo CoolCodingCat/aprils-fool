@@ -22,11 +22,11 @@ const IndexPage = () => (
               <h1 className="mb-5">
                 Le SaveurCoin est une monnaie virtuelle basée sur le protocol Ethereum : le moyen idéal pour sécuriser vos transactions avec votre boulangerie préférée Aux Saveurs de la Tour
               </h1>
-              <Scroll type="id" element="download">
+              <div type="id">
               <a href="/endpoint" className="btn btn-outline btn-xl">
                   Je crée mon Wallet !
                 </a>
-              </Scroll>
+              </div>
             </div>
           </div>
           <div className="col-lg-5 my-auto">
@@ -96,7 +96,7 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Sécurisé</h3>
+                    <h3 className="secu">Sécurisé</h3>
                     <p className="text-muted">
                       Le protocole P2P Ethereum vous garantit une trace infalsifiable, confirmée par les ordinateurs du monde entier, pour prouver que vous avez pensé à acheter votre <strong>baguette Parisse</strong>
                     </p>
@@ -105,7 +105,7 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Irréfutable</h3>
+                    <h3 className="secu">Irréfutable</h3>
                     <p className="text-muted">
                       Si on vous accuse d'avoir mangé les croissants en cours de route, vous pouvez prouver que vous avez oublié de les acheter
                     </p>
@@ -116,7 +116,7 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
-                    <h3>Simple</h3>
+                    <h3 className="secu">Simple</h3>
                     <p className="text-muted">
                       Grâce à votre clé de cryptage de 32 caractères, à fournir à la caisse, en plus de votre application dévérouillée par reconnaissance faciale et corroborée par votre pièce d'identité certifiée conforme par le Grand Consul, vous aurez accès à la partie viennoiseries sur invitation.
                     </p>
@@ -125,7 +125,7 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-lock-open text-primary"></i>
-                    <h3>Pratique</h3>
+                    <h3 className="secu">Pratique</h3>
                     <p className="text-muted">
                       L'ajout de votre transaction sur la blockchain ne prend pas plus de 20 minutes. Gain de temps évident.<br/> (note : vous pourrez sortir du magasin immédiatement après cette validation)
                     </p>
@@ -144,13 +144,13 @@ const IndexPage = () => (
           <h2>
             SaveurCoin
             <br />
-            La nouvelle ère du croissant
+            La nouvelle ère de la boulangerie
           </h2>
-          <Scroll type="id" element="contact">
+          <div type="id">
             <a href="/endpoint" className="btn btn-outline btn-xl">
               On démarre !
             </a>
-          </Scroll>
+          </div>
         </div>
       </div>
       <div className="overlay"></div>
